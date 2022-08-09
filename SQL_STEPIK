@@ -10,4 +10,4 @@ INSERT book (title, author, price, amount) VALUES ('Белая гвардия', 
 INSERT book (title, author, price, amount) VALUES ('Идиот', 'Достоевский Ф.М.', 460.00, 10);
 INSERT book (title, author, price, amount) VALUES ('Братья Карамазовы', 'Достоевский Ф.М.', 799.01, 2);
 SELECT * FROM book;
-SELECT title, amount, price FROM book;
+SSELECT author, title, price FROM book;
